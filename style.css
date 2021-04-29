@@ -1,0 +1,60 @@
+/*menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  darkblue;
+    }
+  
+  li {
+      float:left;
+  }
+  
+  li a {
+      display: block;
+      color: black;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover {
+   font-weight: bold;
+    color: blue;
+     
+  }
+
+  li a:active {
+    font-style: italic;
+    color:red;
+      
+   }
+ 
+   li a:visited {
+    color:yellow;
+      
+   }
+
+  .form-style [type="message"]{
+    display: block;
+    width:350px;
+    height:100px;
+    margin-bottom: 5px;
+    min-height: 35px;
+    box-sizing: border-box; 
+    padding: 8px;
+    border: none;
+    background-color:lightgray;
+}
+    .form-style  :focus{
+    color:green;
+    font-size:20px;
+    }
+
+    .currentPage{
+        color: #640200;
+     }
